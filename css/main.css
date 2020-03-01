@@ -8,6 +8,13 @@ header h1 {
   margin: 0;
 }
 
+#mNavbar {
+  position: fixed;
+  top: 0;
+  display: block;
+  transition: top 0.3s;
+}
+
 p {
   font-family: 'Montserrat', sans-serif;
   color: white;
@@ -16,8 +23,10 @@ p {
 .jumbotron {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-image: url('https://free4kwallpapers.com/uploads/originals/2019/11/24/cyberpunk-city-wallpaper.jpg');
   background-size: cover;
+  background-position: center, center;
   color: #ffffff;
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
@@ -65,7 +74,7 @@ footer ul {
   list-style: none;
 }
 
-footer li img {
-  width: 32px;
-  height: 32px;
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  
 }
