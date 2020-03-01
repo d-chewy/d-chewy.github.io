@@ -1,0 +1,71 @@
+header.row, footer.row {
+  display: flex;
+  align-items: center;
+}   
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://free4kwallpapers.com/uploads/originals/2019/11/24/cyberpunk-city-wallpaper.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.row.text-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: white;
+  border-top: 15px solid rgba(0, 0, 0, 0);
+}
+
+#about {
+  font-family: 'Montserrat', sans-serif;
+  font-size: large;
+  color: white;
+  border-top: 20px solid rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  font-size: 15px;
+  border-top: 20px solid rgba(0, 0, 0, 0);
+  padding: 20px 0;
+}
+
+footer p{
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
