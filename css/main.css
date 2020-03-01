@@ -1,7 +1,7 @@
 header.row, footer.row {
   display: flex;
   align-items: center;
-}   
+}
 
 header h1 {
   font-weight: 700;
@@ -51,7 +51,7 @@ footer {
   padding: 20px 0;
 }
 
-footer p{
+footer p {
   display: flex;
   justify-content: flex-start;
 }
