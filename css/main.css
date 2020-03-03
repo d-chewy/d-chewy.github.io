@@ -1,3 +1,7 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 header.row, footer.row {
   display: flex;
   align-items: center;
@@ -15,8 +19,16 @@ header h1 {
   transition: top 0.3s;
 }
 
+#mNavbar a {
+  font-size: 10px;
+}
+
+#mNavbar p {
+  color: #ff0000;
+  font-weight: 1000;
+}
+
 p {
-  font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
@@ -39,14 +51,12 @@ p {
 }
 
 #title {
-  font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   color: white;
   border-top: 15px solid rgba(0, 0, 0, 0);
 }
 
 #about {
-  font-family: 'Montserrat', sans-serif;
   font-size: large;
   color: white;
   border-top: 20px solid rgba(0, 0, 0, 0);
@@ -76,5 +86,7 @@ footer ul {
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
-  
+  #mNavbar p {
+    font-size: small;
+  }
 }
